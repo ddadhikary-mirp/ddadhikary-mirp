@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+float R, area;
+cout <<"ENter Radius: ";
+cin >> R;
+area=3.14*R*R;
+cout <<"area= "<<area;
+ return 0;
+}
+
