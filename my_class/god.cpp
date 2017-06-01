@@ -7,4 +7,4 @@ cin >> n;
 average = n*(n+1)/(2*n) ;
 cout << "The average of" << n << "numbers is" << average << endl;
 return 0;
-}
+} 
