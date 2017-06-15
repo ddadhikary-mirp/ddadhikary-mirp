@@ -22,13 +22,14 @@ void loop() {
 for(int i =mn ; i< mx ; ++i){
  ServoX.write(i);
  ServoY.write(i);
- delay(0);
+delay(40);
+
 }
 
 for(int i=mx ; i>mn; --i){
- ServoX.write(i);
+ServoX.write(i);
  ServoY.write(i);
- delay(0);
+ delay(40);
 }
 }
 
